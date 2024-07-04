@@ -13,11 +13,11 @@
           self.root.title("Music Player")
           self.root.geometry("250x160")
  
-         pygame.mixer.init()
+          pygame.mixer.init()
  
-         self.is_paused = False
-         self.music_files = []
-         self.current_index = 0
+          self.is_paused = False
+          self.music_files = []
+          self.current_index = 0
   
          # Create buttons
          self.btn_select_folder = tk.Button(root, text="Select Folder", command=self.select_folder)
